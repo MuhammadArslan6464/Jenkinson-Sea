@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenkinson</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <section id="time-location">
+        <div>
+            <p><i class='bx bx-time'></i> Monday to Saturday: 9.00am to 6.00pm</p>
+        </div>
+        <div>
+            <p><i class='bx bx-map'></i> Jenkinson's Boardwalk 300 Ocean Ave Pt. Pleasant Beach, NJ 08742 732.892.0600</p>
+        </div>
+        <div>
+            <p id="visit-counter">Visits: Loading...</p>
+        </div>
+        
+    </section>
+
+    <section id="header">
+        <a href="#"><img src="logo.png" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallary">Gallary</a></li>
+                <li><a href="#event">Events</a></li>
+                <li><a href="#category">Category</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <a href="#" id="close"><i class='bx bxs-chevron-right'></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class='bx bx-menu'></i>
+        </div>
+    </section>
+
+    <section id="hero">
+        <!-- <h2>Jenkinson Sea</h2> -->
+    </section>
+
+       <!-- about design  -->
+       <section id="about" class="about">
+        <h2 class="heading" style="text-align: center; margin-bottom: 3%;">About</h2>
+        <div class="aboutrow">
+            <div class="aboutcol">
+                <div class="about-box">
+                    <img src="banner/sea.jpg" alt="about img">
+                </div>
+            </div>
+            <div class="aboutcol">
+                <div class="about-box">
+                    <div class="about-content">
+                        <h2>The Most Beautiful Aquarium In The World</h2>
+                        <p>During the middle ages, European merchants successfully traded in Eurasia and even reached the rich and fabled land of Cathay (China) thanks to the relatively peaceful climate created by the Pax Mongolica. But when the Mongol Empire disintegrated instability made the old overland routes increasingly dangerous and often impassable. Nonetheless, in the fifteenth and sixteenth centuries European entrepreneurs, still very much familiar with the writings of such merchant-travelers as Marco Polo (who praised the wealth and grandeur of the lands of the Great Khan).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallary" class="section-p1">
+        <h2>Gallary</h2>
+        <p>Marine Life Animals</p>
+        <div class="pro-container">
+            <div class="pro card" onclick="showImage('pic9.jpg', 'Marine Life Animals', 'Description for Image 1')">
+                <img src="./gallary/pic9.jpg" alt="">
+            </div>
+            <div class="pro card" onclick="showImage('pic.jpg', 'Marine Life Animals', 'Description for Image 2')">
+                <img src="./gallary/pic.jpg" alt="">
+            </div>
+            <div class="pro card" onclick="showImage('pic3.jpg', 'Marine Life Animals', 'Description for Image 2')">
+                <img src="./gallary/pic3.jpg" alt="">
+            </div>
+            <div class="pro card" onclick="showImage('pic4.jpg', 'Marine Life Animals', 'Description for Image 2')">
+                <img src="./gallary/pic4.jpg" alt="">
+            </div>
+            <div class="pro card" onclick="showImage('pic5.jpg', 'Marine Life Animals', 'Description for Image 2')">
+                <img src="./gallary/pic5.jpg" alt="">
+            </div>
+            <div class="pro card" onclick="showImage('pic6.jpg', 'Marine Life Animals', 'Description for Image 2')">
+                <img src="./gallary/pic6.jpg" alt="">
+            </div>
+            <div class="pro card" onclick="showImage('pic10.jpg', 'Marine Life Animals', 'Description for Image 2')">
+                <img src="./gallary/pic10.jpg" alt="">
+            </div>
+            <div class="pro card" onclick="showImage('pic8.jpg', 'Marine Life Animals', 'Description for Image 2')">
+                <img src="./gallary/pic8.jpg" alt="">
+            </div>
+            
+        </div>
+    </section>
+
+ 
+
+    <section id="event" class="section-p1" style="background-color: #f5f5f5;">
+        <h2>Events</h2>
+        <div class="pro-container">
+            <div class="pro card">
+                <img src="events/food.jpg" alt="">
+                <div class="des">
+                    <h5>Food Fastival</h5>
+                    <p>A food festival is a festival, that features food, often produce, as its central theme. These festivals have been a means of uniting communities through celebrations of harvests and giving thanks for a plentiful growing season.</p>
+                </div>
+            </div>
+            <div class="pro card">
+                <img src="events/download (1).jpeg" alt="">
+                <div class="des">
+                    <h5>Food Fastival</h5>
+                    <p>A food festival is a festival, that features food, often produce, as its central theme. These festivals have been a means of uniting communities through celebrations of harvests and giving thanks for a plentiful growing season.</p>
+                </div>
+            </div>
+            <div class="pro card">
+                <img src="events/download (2).jpeg" alt="">
+                <div class="des">
+                    <h5>Travel Fastival</h5>
+                    <p>Welcome to the [Travel Fastival] - a vibrant celebration of exploration, adventure, and the wonders of the world! Our Travel Festival invites you on a journey through diverse cultures, breathtaking landscapes, and the thrill of discovery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="event" class="section-p1"  style="background-color: #f5f5f5;">
+        <h2>Children <span style="color: red;"> (Events) </span></h2>
+        <div class="pro-container">
+            <div class="pro card">
+                <img src="events/kids.jpg" alt="">
+                <div class="des">
+                    <h5>Football</h5>
+                    <p>Get ready to experience the thrill, skill, and passion of the world's most beloved sport at the [Football] - an electrifying football extravaganza that promises excitement both on and off the field!</p>
+                </div>
+            </div>
+            <div class="pro card">
+                <img src="events/swimming-pool-games.jpg" alt="">
+                <div class="des">
+                    <h5>Swimming</h5>
+                    <p>Dive into the excitement at the [Swimming] - a celebration of aquatic prowess, community spirit, and the joy of swimming!  this event promises a watery adventure like no other.</p>
+                </div>
+            </div>
+            <div class="pro card">
+                <img src="events/cricket.jpg" alt="">
+                <div class="des">
+                    <h5>Cricket</h5>
+                    <p>Get ready for a cricketing extravaganza like never before at the [Cricket] - where the crack of the bat, the roar of the crowd, and the thrill of the game come together for an unforgettable celebration of cricket!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add the Category section -->
+    <section id="category" class="section-p1">
+        <h2>All Category</h2>
+        <div class="pro-container">
+            <div class="pro card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKsTlNjFW95eNlZjniHl7B0-tfPeknHBm0XQ&usqp=CAU" alt="">
+                <div class="des">
+                    <h5>Baby Shark T-Shirts</h5>
+                    <p>Let your kids flaunt their favorite underwater friends with our comfortable and colorful Baby Shark t-shirts. Each shirt showcases the iconic characters, making it a fun addition to their everyday wardrobe.</p>
+                </div>
+            </div>
+            <div class="pro card">
+                <img src="events/download (1).jpeg" alt="">
+                <div class="des">
+                    <h5>Food Fastival</h5>
+                    <p>A food festival is a festival, that features food, often produce, as its central theme. These festivals have been a means of uniting communities through celebrations of harvests and giving thanks for a plentiful growing season.</p>
+                </div>
+            </div>
+            <div class="pro card">
+                <img src="events/download (2).jpeg" alt="">
+                <div class="des">
+                    <h5>Travel Fastival</h5>
+                    <p>Welcome to the [Travel Fastival] - a vibrant celebration of exploration, adventure, and the wonders of the world! Our Travel Festival invites you on a journey through diverse cultures, breathtaking landscapes,.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    
+    <section id="contact" class="section-p2">
+        <div>
+            <h2>Contact Us</h2>
+        </div>
+        <div class="details">
+            <div>
+                <li>
+                    <i class='bx bx-map'></i>
+                    <p>Jenkinson's Boardwalk
+                        300 Ocean Ave
+                        Pt. Pleasant Beach, NJ 08742
+                        732.892.0600</p>
+                </li>
+                <li>
+                    <i class='bx bx-envelope'></i>
+                    <p>information@jenkinsons.com</p>
+                </li>
+                <li>
+                    <i class='bx bx-phone-call'></i>
+                    <p>732-892-0600</p>
+                </li>
+                <li>
+                    <i class='bx bx-time-five'></i>
+                    <p>Monday to Saturday: 9.00am to 6.00.pm</p>
+                </li>
+            </div>
+        </div>
+    </section>
+
+    <section id="form-details">
+        <form action="">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Address">
+            <input type="number" placeholder="Contact Number">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button class="normal">Submit</button>
+        </form>
+    </section>
+
+
+
+    <footer class="section-p3">
+        <div class="col-2">
+            <img class="logo" src="logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Jenkinson's Boardwalk
+                300 Ocean Ave
+                Pt. Pleasant Beach, NJ 08742
+                732.892.0600</p>
+            <p><strong>Phone:</strong> 732-892-0600</p>
+            <p><strong>Hours:</strong> 08:00am - 12:00am, Mon - Sat</p>
+            <div class="follow-us">
+                <div class="col-2 rating">
+                    <h4>Rate Us</h4>
+                    <div class="stars">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="col-2">
+            <h4>About</h4>
+            <a href="#">About us</a><br>
+            <a href="#">Delivery Information</a><br>
+            <a href="#">Privacy Policy</a><br>
+            <a href="#">Terms & Conditions</a><br>
+            <a href="#">Contact Us</a><br>
+            
+        </div>
+
+        <div class="col-2">
+            <h4>Plane Your Visit</h4>
+            <a href="#">Aquarium</a><br>
+            <a href="#">Sweet Shop</a><br>
+            <a href="#">Beach Cam</a><br>
+            <a href="#">Boardwalk map</a><br>
+            <a href="#">Contact us</a><br>
+            <a href="#">Join our team</a><br>
+        </div>
+
+        <div class="copyright">
+            <p>© 2023, HTML CSS Ecommerce Website</p>
+        </div>
+    </footer>
+
+    <section id="bottom-details" class="current_time">
+        <div>
+            <p id="current-time"><i class='bx bx-time'></i> Loading...</p>
+        </div>
+        <div>
+            <p id="current-date"><i class='bx bx-calendar'></i> Loading...</p>
+        </div>
+        <div>
+            <p id="current-location"><i class='bx bx-map'></i> Loading...</p>
+        </div>
+    </section>
+
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
